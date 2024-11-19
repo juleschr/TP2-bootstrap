@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site</title>
+    <link rel="stylesheet" href="bootstrap-5.2-dist/css/bootstrap.min.css">
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-
+        1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=apps" />
+
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Acceuil</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#nourriture">Nourriture</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sport">Sport</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sommeil">Sommeil</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">kayakobeme</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="card bg-light p-3 mb-4">
+      <h1><span class="material-symbols-outlined">apps</span> Moniteur d'activités</h1>
+      <p>
+        Bienvenue sur notre outil de suivi d'activités. Visualisez les statistiques sur vos repas, vos activités sportives ou encore sur votre sommeil.
+      </p>
+    </div>
+    <div class="container">
+      <div class="row g-4">
+          <div class="col-md-3">
+              <div class="card">
+                  <img src="img/nourriture.jpg" class="card-img-top" alt="Nourriture">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                    <span class="material-icons">fastfood</span><h5 class="card-title">Nourriture</h5></div>
+                      <p class="card-text">Suivez vos repas : heure, type, quantité, calories...</p>
+                      <a href="nourriture.html" class="btn btn-primary">Voir plus</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="card">
+                  <img src="img/sport.jpg" class="card-img-top" alt="Sport">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                    <span class="material-icons">sports</span><h5 class="card-title">Sport</h5></div>
+                      <p class="card-text">Quelles activités avez-vous pratiquées aujourd'hui ?</p>
+                      <a href="sports.html" class="btn btn-primary">Voir plus</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="card">
+                  <img src="img/sommeil.jpg" class="card-img-top" alt="Sommeil">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                      <span class="material-icons">timeline</span><h5 class="card-title">Sommeil</h5></div>
+                      <p class="card-text">Dormez-vous assez ? Suivez la qualité de votre sommeil.</p>
+                      <a href="sommeil.html" class="btn btn-primary">Voir plus</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="card">
+                  <img src="img/photos.jpg" class="card-img-top" alt="Blog">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                      <span class="material-icons">add_a_photo</span><h5 class="card-title">Blog</h5></div>
+                      <p class="card-text">Où êtes-vous allé ? Suivez votre activité en image !</p>
+                      <a href="blog.html" class="btn btn-primary">Voir plus</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

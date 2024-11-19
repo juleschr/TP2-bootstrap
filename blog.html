@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+    <meta name="viewport" content="width=device-width, initial-
+scale=1">  
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="accueil.html">Accueil</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="nourriture.html">Nourriture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sports.html">Sport</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sommeil.html">Sommeil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  A propos
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="equipe.html">Equipe</a></li>
+                    <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                   
+  
+                  </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+       
+      </nav>
+            
+            <div class="container mt-5">
+                <h2 class="text-center">Photos : cliquez pour les voir en grand</h2>
+                <div class="row">
+                    
+                    <div class="col-12 d-flex align-items-center mb-4">
+                        <img src="img/nourriture.jpg" alt="Premier repas de la journée" class="img-thumbnail me-3" style="width: 150px; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#modal1">
+                        <div>
+                            <h5>Premier repas de la journée</h5>
+                            <p>Post déjeuner à base de légumes et de fruits frais.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 d-flex align-items-center mb-4">
+                        <img src="img/sport.jpg" alt="Petit footing du matin" class="img-thumbnail me-3" style="width: 150px; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#modal2">
+                        <div>
+                            <h5>Petit footing du matin</h5>
+                            <p>7 km en bord de mer avec un petit vent d'ouest.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 d-flex  align-items-center mb-4">
+                        <img src="img/nourriture.jpg" alt="Petit footing du matin" class="img-thumbnail me-3" style="width: 150px; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#modal2">
+                        <div>
+                            <h5>La journée qui commence</h5>
+                            <p>Réveil à 7h15 du matin de bon pied pour une nouvelle journée bien chargée.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 d-flex  align-items-center mb-4">
+                        <img src="img/photos.jpg" alt="Petit footing du matin" class="img-thumbnail me-3" style="width: 150px; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#modal2">
+                        <div>
+                            <h5>Shooting photos</h5>
+                            <p>Pause de midi en campagne pour capturer la nature avec mon appareil.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+      </div>
+
+    
+<div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="img/nourriture.jpg" alt="Premier repas de la journée" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="img/sport.jpg"alt="Petit footing du matin" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="img/nourriture.jpg"alt="La journée qui commence" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="img/photos.jpg"alt="Shooting photos" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    
+</body>
+</html>
